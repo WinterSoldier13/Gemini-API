@@ -202,3 +202,9 @@ Temporary Items
 
 # Temporary files
 .temp/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
