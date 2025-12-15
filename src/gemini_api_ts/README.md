@@ -14,6 +14,15 @@ npm install
 
 You need `__Secure-1PSID` and `__Secure-1PSIDTS` cookies from your browser (logged into gemini.google.com).
 
+#### How to get cookies
+
+1.  Go to [https://gemini.google.com/](https://gemini.google.com/) and log in with your Google account.
+2.  Press `F12` or right-click and select "Inspect" to open Developer Tools.
+3.  Go to the **Application** tab (Chrome/Edge) or **Storage** tab (Firefox).
+4.  Expand **Cookies** in the left sidebar and select `https://gemini.google.com`.
+5.  Find the row with **Name** `__Secure-1PSID` and copy its **Value**.
+6.  Find the row with **Name** `__Secure-1PSIDTS` and copy its **Value**.
+
 ```typescript
 import { GeminiClient } from "./client";
 
